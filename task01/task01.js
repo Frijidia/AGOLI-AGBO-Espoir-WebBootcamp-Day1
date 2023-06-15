@@ -4,6 +4,7 @@ function factorial(n){
     else return (n * factorial(n - 1))
 }
 
-const number = 5;
-const result = factorial(number);
-console.log(`The factorial of ${number} is ${result}`);
+// const array = [1, 2, 3, 2, 4, 1, 5, 3];
+// const uniqueArray = removeDuplicates(array);
+// console.log("Array with duplicates:", array);
+// console.log("Array without duplicates:", uniqueArray);

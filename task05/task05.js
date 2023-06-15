@@ -9,6 +9,6 @@ function isPalindrome(str){
     return true;
 }
 
-const str = "A man, a plan, a canal. Panama";
-const isPalindromeString = isPalindrome(str);
-console.log(`Is "${str}" a palindrome? ${isPalindromeString}`);
+// const str = "A man, a plan, a canal. Panama";
+// const isPalindromeString = isPalindrome(str);
+// console.log(`Is "${str}" a palindrome? ${isPalindromeString}`);

@@ -9,6 +9,6 @@ function isPrime(n){
     else return false
 }
 
-const number = 17;
-const isNumberPrime = isPrime(number);
-console.log(`Is ${number} prime? ${isNumberPrime}`);
+// const number = 17;
+// const isNumberPrime = isPrime(number);
+// console.log(`Is ${number} prime? ${isNumberPrime}`);
