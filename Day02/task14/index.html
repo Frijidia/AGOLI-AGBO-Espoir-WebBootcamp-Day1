@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form Validation</title>
+  <script>
+    function validateForm() {
+	    var x = document.getElementById("myInput");
+        if (x.value.lenght == 0){
+            return false;
+        }
+        return true;
+    }
+  </script>
+</head>
+<body>
+  <form onsubmit="return validateForm()">
+    <input type="text" id="myInput" placeholder="Enter a value" />
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>

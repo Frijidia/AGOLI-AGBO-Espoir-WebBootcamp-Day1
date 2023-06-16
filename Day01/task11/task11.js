@@ -29,5 +29,5 @@ const persons = [
     { name: "Bob", age: 18 },
   ];
   
-//   const sortedPersons = sortByProperty(persons, "age");
-//   console.log("Sorted persons:", sortedPersons);
+// const sortedPersons = sortByProperty(persons, "age");
+// console.log("Sorted persons:", sortedPersons);
