@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mouse Pointer Coordinates</title>
+  <style>
+    #myDiv {
+      width: 400px;
+      height: 300px;
+      background-color: lightgray;
+    }
+  </style>
+  <script>
+    window.addEventListener('DOMContentLoaded', function() {
+	    var ch = document.getElementById("coordinatesDisplay");
+        var x = evt.pageX - $('#element').offset().left;
+        var y = evt.pageY - $('#element').offset().top;
+        ch.innerText = "Character count: " + x, y; 
+        console.log(x, y);
+    });
+  </script>
+</head>
+<body>
+  <div id="myDiv"></div>
+  <p id="coordinatesDisplay">Coordinates: </p>
+</body>
+</html>
